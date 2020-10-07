@@ -1,0 +1,96 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+body{
+	background-image: url(../images/bg_login.jpg);
+	background-size: cover;
+}
+.main{
+	width: 400px;
+	height: 300px;
+	margin: 0px auto;
+	display: block;
+	margin-top:200px;
+	border: 1px #000000 solid;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+h1{
+	text-align: center;
+	color: #55AAFF;
+	font-size: 30px;
+}
+label{
+	width: 400px;
+	display: block;
+	float: left;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+.nameAndPassword {
+	width: 200px;
+	height: 30px;
+}
+.yzm_span{
+	display: block;
+	float: left;
+	margin-top: 4px;
+}
+.vcode_input {
+	width: 100px;
+	height: 30px;
+	display: block;
+	float: left;
+}
+#img_btn{
+	width:100px;
+	height:30px;
+	display:block;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+	border: 1px #000000 solid;
+	position: relative;
+}
+#p_show{
+	display: none;
+	font-size: 8px;
+	color: crimson;
+	z-index: 1;
+	position: absolute;
+	background-color: #FFFFFF;
+	width: 100px;
+	height: 20px;
+	border: 1px solid slategray;
+	border-radius: 10px;
+	right: inherit;
+	margin-left: 226px;
+	margin-top: 34px;
+}
+
+#check_text {
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.check_box{
+	margin-top: 6px;
+}
+
+.btn{
+	width: 200px;
+	height: 40px;
+	background-color: #55aaff;
+	color: #FFFFFF;
+	margin-top: 4px;
+	margin-left: 90px;	
+	line-height: 90%;
+	border: 0px;
+	border-radius: 20px;
+	cursor: pointer;
+}
