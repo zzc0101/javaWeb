@@ -1,0 +1,189 @@
+@charset "UTF-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url("../images/bg_login.jpg");
+	background-size: cover;
+}
+
+#main {
+	width: 400px;
+	height: 300px;
+	display: flex;
+	flex-flow: column;
+	margin: 200px auto;
+	justify-self: center;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	opacity: 0.8;
+	box-sizing: border-box;
+}
+
+h1{
+	color: #55AAFF;
+	text-align: center;
+	margin: 10px 0;
+}
+
+#user_login {
+	display: flex;
+	flex-flow: column;
+	justify-items: center;
+	align-items: center;
+}
+
+#nameAndPassword_name {
+	width: 250px;
+	height: 30px;
+	background: url("../images/user.png") no-repeat;
+	box-sizing: border-box;
+	padding-left: 32px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+.label_name {
+	position: relative;
+}
+
+#error_name {
+	display: none;
+	width: 250px;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	z-index: 1;
+}
+
+#nameAndPassword_name:hover{
+	border: 1px solid #55aaff;
+}
+
+.label_pwd {
+	position: relative;
+	margin-top: 20px;
+}
+
+#error_pwd {
+	display: none;
+	width: 250px;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	z-index: 1;
+}
+
+#nameAndPassword_pwd {
+	width: 250px;
+	height: 30px;
+	background: url("../images/pwd.png") no-repeat;
+	box-sizing: border-box;
+	padding-left: 32px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+#nameAndPassword_pwd:hover {
+	border: 1px solid #55aaff;
+}
+
+.Verify_label{
+	display: flex;
+	position: relative;
+	width: 250px;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+#error_verify {
+	display: none;
+	width: 250px;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	bottom: -12px;
+	z-index: 1;
+}
+
+#Verify_input{
+	width: 140px;
+	height: 30px;
+	background: url("../images/yzm.png") no-repeat;
+	box-sizing: border-box;
+	padding-left: 32px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+#Verify_input:hover{
+	border: 1px solid #55aaff;
+}
+
+#img_btn {
+	border: 1px solid #55AAFF;
+	font-size: 12px;
+	background: #55AAFF;
+	cursor: pointer;
+}
+
+#p_show {
+	display: none;
+	width: 100px;
+	border: 1px solid #000000;
+	font-size: 10px;
+	color: crimson;
+	position: absolute;
+	right: 0;
+	bottom: -18px;
+	z-index: 999;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+.checkBox_show {
+	display: flex;
+	width: 250px;
+	font-size: 12px;
+	margin-top: 20px;
+	justify-content: space-between;
+	position: relative;
+}
+
+.label_btn {
+	position: relative;
+	margin-top: 10px;
+}
+
+#error_info {
+	display: none;
+	width: 200px;
+	text-align: center;
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	bottom: -14px;
+	z-index: 1;
+}
+
+.btn_login{
+	display: block;
+	width: 200px;
+	height: 40px;
+	text-decoration: none;
+	background-color: #55aaff;
+	color: #FFFFFF;
+	border: 0;
+	border-radius: 20px;
+	cursor: pointer;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+
+.register_page {
+	text-decoration: none;
+}

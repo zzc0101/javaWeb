@@ -1,0 +1,349 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 5px solid #FA8072;
+}
+.header_left img{
+    display: block;
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+    float: left;
+}
+#user_name{
+    color: #FA8072;
+}
+.header_right{
+    display: block;
+    float: right;
+    width: 600px;
+    height: 90px;
+    margin-top: 5px;
+}
+.user_info{
+    display: block;
+    float: right;
+    width: 400px;
+    height: 46px;
+    text-align: right;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+#exit_btn{
+    text-decoration: none;
+    color: #000000;
+}
+#exit_btn:hover{
+    color: #FA8072;
+}
+.header_right ul{
+    list-style-type: none;
+    display: block;
+    float: right;
+    margin-top: 4px;
+}
+.header_right ul li{
+    display: block;
+    float: left;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+    border-left: 2px solid #000000;
+}
+.header_right ul li:first-child{
+    width: 60px;
+    border-left: none;
+}
+.header_right ul li:nth-child(3){
+    color: #FA8072;
+}
+.header_right ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.header_right ul li a:hover{
+    color: #FA8072;
+}
+#main{
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+#tip_show {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*选项栏*/
+input{
+    width: 130px;
+    height: 24px;
+}
+
+#pageBody{
+    width: 1100px;
+    background-image: url("../images/bg_download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#search{
+    width: 1100px;
+    height: 30px;
+    display: inline-block;
+}
+#searchForm{
+    display: block;
+    float: left;
+}
+#bt{
+    display: block;
+    float: left;
+    margin-left: 80px;
+}
+#bt a{
+    width: 80px;
+    height: 24px;
+    background: #FA8072;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 4px;
+}
+
+/*表格样式*/
+#pageNumber {
+    color: red;
+}
+table{
+    width: 1068px;
+    text-align: center;
+    cursor: pointer;
+}
+th{
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    background-color: #55aaff;
+}
+.tb {
+    border-width: 1px;
+    border-style: solid;
+}
+.tr_even:nth-child(n){
+    background-color: #d6d9d6;
+}
+
+.tr_odd:nth-child(n-1){
+    background-color: #FFFFFF;
+}
+
+.paging {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-right: 18px;
+    margin-top: 20px;
+}
+.pageNav a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.pageNav a:hover{
+    color: #fa8072;
+}
+.tr_hover{
+    background-color: #fa8072;
+}
+.tr_a{
+    text-decoration: none;
+    color: #55aaff;
+}
+.tr_ahover{
+    color:#fa8072;
+}
+
+/*弹出层的样式*/
+.black_overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(187,184,184);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.white_content {
+    display: none;
+    position: absolute;
+    width: 390px;
+    border: 6px  solid #55aaff;
+    background-color: #FFFFFF;
+    overflow: auto;
+    z-index: 1001;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2{
+    color: #000000;
+}
+
+.title a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+label {
+    display: block;
+    height: 40px;
+    margin-top: 20px;
+}
+
+label input {
+    width: 300px;
+    height: 30px;
+}
+
+#userNameError {
+    display: block;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#userName_Attribute {
+    background-image: url("../images/user.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#chrNameError {
+    display: block;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#userChrName_Attribute {
+    background-image: url("../images/user.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#emailError {
+    display: block;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#emailAddress_Attribute {
+    background-image: url("../images/email.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#provinceError {
+    display: block;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#province {
+    background-image: url("../images/province.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#cityError {
+    display: block;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#city {
+    background-image: url("../images/city.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#passwordError {
+    display: block;
+    color: #fa8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#userPassword_Attribute {
+    background-image: url("../images/pwd.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#confirmError {
+    display: block;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+#confirmPassword_Attribute {
+    background-image: url("../images/pwd.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#btn_summit {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 30px;
+    background: #55AAFF;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#btn_summit:hover{
+    color: #FFFFFF;
+    background: #FA8072;
+}

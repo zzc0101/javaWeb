@@ -1,0 +1,182 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../images/bg_login.jpg");
+    background-size: cover;
+}
+
+#main{
+    display: flex;
+    width: 400px;
+    height: 600px;
+    background: #55AAFF;
+    margin: 60px auto;
+    align-items: center;
+    flex-flow: column;
+    opacity: 0.8;
+}
+
+.title{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+h2{
+    color: #FFFFFF;
+}
+
+.title a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+label {
+    height: 40px;
+    margin-top: 20px;
+    position: relative;
+}
+
+label input {
+    width: 300px;
+    height: 30px;
+}
+
+/*.label_UserName {*/
+/*    position: relative;*/
+/*}*/
+
+#userNameError {
+    display: block;
+    position: absolute;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#userName_Attribute {
+    background-image: url("../images/user.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#chrNameError {
+    display: block;
+    position: absolute;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#userChrName_Attribute {
+    background-image: url("../images/user.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#emailError {
+    display: block;
+    position: absolute;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#emailAddress_Attribute {
+    background-image: url("../images/email.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#provinceError {
+    display: block;
+    position: absolute;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#province {
+    background-image: url("../images/province.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#cityError {
+    display: block;
+    position: absolute;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#city {
+    background-image: url("../images/city.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#passwordError {
+    display: block;
+    position: absolute;
+    color: #fa8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#userPassword_Attribute {
+    background-image: url("../images/pwd.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#confirmError {
+    display: block;
+    position: absolute;
+    color: #FA8072;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#confirmPassword_Attribute {
+    background-image: url("../images/pwd.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#btn_summit {
+    display: block;
+    width: 300px;
+    height: 30px;
+    background: #FFFFFF;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #55AAFF;
+}
+#btn_summit:hover{
+    color: #FFFFFF;
+    background: #FA8072;
+}
